@@ -1,0 +1,112 @@
+{
+	"name" : "Base",
+	"description" : "<p>Base bundle to get fintech base modules!</p>",
+	"module_type" : "bundles",
+	"app_type" : "fintech",
+	"repo" : "https://github.com/sp-fintech/fintech-bundles-base",
+	"version" : "0.0.0",
+	"bundle_modules" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.7",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.1.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"components" : 
+		[
+			{
+				"name" : "Dashboards",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-tools-dashboards"
+			},
+			
+			{
+				"name" : "Home",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-tools-home"
+			}
+		],
+		"packages" : 
+		[
+			{
+				"name" : "Adminltetags",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-packages-viewtags-adminltetags"
+			}
+		],
+		"middlewares" : 
+		[
+			{
+				"name" : "Acl",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-middlewares-tools-acl"
+			},
+			
+			{
+				"name" : "AgentCheck",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-middlewares-tools-agentcheck"
+			},
+			
+			{
+				"name" : "IpFilter",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-middlewares-tools-ipfilter"
+			},
+			
+			{
+				"name" : "Auth",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-middlewares-tools-auth"
+			}
+		],
+		"views" : 
+		[
+			{
+				"name" : "Auth",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-auth"
+			},
+			
+			{
+				"name" : "Dashboards",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-dashboards"
+			},
+			
+			{
+				"name" : "Default",
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default"
+			},
+			
+			{
+				"name" : "Home",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-home"
+			}
+		],
+		"external" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	}
+}
