@@ -55,6 +55,12 @@
 				"name" : "User Profile",
 				"version" : "0.0.0",
 				"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemusersprofile"
+			},
+			
+			{
+				"name" : "Storages",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemstorages"
 			}
 		],
 		"packages" : 
