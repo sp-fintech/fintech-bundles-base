@@ -65,8 +65,8 @@
 			
 			{
 				"name" : "Register",
-				"version" : "0.0.0",
-				"repo" : "https://github.com/sp-modules/fintech-components-tools-register"
+				"version" : "0.1.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-tools-register"
 			}
 		],
 		"packages" : 
