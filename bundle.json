@@ -31,6 +31,12 @@
 				"name" : "Home",
 				"version" : "0.1.0",
 				"repo" : "https://github.com/sp-fintech/fintech-components-tools-home"
+			},
+			
+			{
+				"name" : "Errors",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-components-tools-errors"
 			}
 		],
 		"packages" : 
