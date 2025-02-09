@@ -4,7 +4,7 @@
 	"module_type" : "bundles",
 	"app_type" : "fintech",
 	"repo" : "https://github.com/sp-fintech/fintech-bundles-base",
-	"version" : "0.1.0",
+	"version" : "0.2.0",
 	"bundle_modules" : 
 	{
 		"core" : 
