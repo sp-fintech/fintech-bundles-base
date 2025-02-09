@@ -4,7 +4,7 @@
 	"module_type" : "bundles",
 	"app_type" : "fintech",
 	"repo" : "https://github.com/sp-fintech/fintech-bundles-base",
-	"version" : "0.4.0",
+	"version" : "0.5.0",
 	"bundle_modules" : 
 	{
 		"core" : 
@@ -61,6 +61,12 @@
 				"name" : "Storages",
 				"version" : "0.0.0",
 				"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemstorages"
+			},
+			
+			{
+				"name" : "Register",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-modules/fintech-components-tools-register"
 			}
 		],
 		"packages" : 
@@ -133,6 +139,12 @@
 				"name" : "SystemUsersProfile",
 				"version" : "0.0.0",
 				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-systemusersprofile"
+			},
+			
+			{
+				"name" : "Register",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-register"
 			}
 		],
 		"external" : 
