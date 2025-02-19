@@ -4,7 +4,7 @@
 	"module_type" : "bundles",
 	"app_type" : "fintech",
 	"repo" : "https://github.com/sp-fintech/fintech-bundles-base",
-	"version" : "0.6.0",
+	"version" : "0.7.0",
 	"bundle_modules" : 
 	{
 		"core" : 
@@ -75,6 +75,18 @@
 				"name" : "Adminltetags",
 				"version" : "0.1.0",
 				"repo" : "https://github.com/sp-fintech/fintech-packages-viewtags-adminltetags"
+			},
+			
+			{
+				"name" : "AccountsUsers",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-packages-accounts-accountsusers"
+			},
+			
+			{
+				"name" : "AccountsBalances",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech/fintech-packages-accounts-accountsbalances"
 			}
 		],
 		"middlewares" : 
@@ -147,7 +159,7 @@
 				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-register"
 			}
 		],
-		"external" : 
+		"externals" : 
 		{
 			"composer" : 
 			{
