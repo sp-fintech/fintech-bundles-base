@@ -158,32 +158,6 @@
 				"version" : "0.0.0",
 				"repo" : "https://github.com/sp-fintech/fintech-views-tools-default-register"
 			}
-		],
-		"externals" : 
-		{
-			"composer" : 
-			{
-				"require" : 
-				{
-					"markrogoyski/math-php" : "2.*",
-					"moneyphp/money" : "^4.6",
-					"php-http/curl-client" : "^2.3",
-					"nyholm/psr7" : "^1.8",
-					"php-http/message" : "^1.16",
-					"florianv/swap" : "^4.3"
-				}
-			},
-			"config" : 
-			{
-				"allow-plugins" : 
-				{
-					"php-http/discovery" : true
-				}
-			},
-			"extra" : 
-			{
-				"patches" : []
-			}
-		}
+		]
 	}
 }
